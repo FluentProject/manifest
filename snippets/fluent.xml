@@ -14,7 +14,7 @@
   </project>
   <project path="external/asus/stitchimage" name="fluentproject/android_external_asus_stitchimage" remote="fluent" />
   <project path="external/faceunlock" name="fluentproject/android_external_faceunlock" remote="fluent-gitlab" />
-  <project path="fleunt-sdk" name="fluentproject/fleunt-sdk" remote="fluent" />
+  <project path="fluent-sdk" name="fluentproject/fleunt-sdk" remote="fluent" />
   <project path="packages/apps/FaceUnlockService" name="fluentproject/android_packages_apps_FaceUnlockService" remote="fluent" />
   <project path="packages/apps/Settings" name="fluentproject/android_packages_apps_Settings" remote="fluent" />
   <project path="vendor/fluent" name="fluentproject/vendor_fluent" remote="fluent" />
