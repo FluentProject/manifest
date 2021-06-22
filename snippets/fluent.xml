@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <!-- Fluent additions -->
+  <project path="manifest" name="fluentproject/manifest" remote="fluent" />
+  <project path="build/make" name="fluentproject/build" remote="fluent" >
+    <copyfile src="core/root.mk" dest="Makefile" />
+    <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
+    <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
+    <linkfile src="core" dest="build/core" />
+    <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
+    <linkfile src="target" dest="build/target" />
+    <linkfile src="tools" dest="build/tools" />
+  </project>
+  <project path="external/asus/stitchimage" name="fluentproject/android_external_asus_stitchimage" remote="fluent" />
+  <project path="external/faceunlock" name="fluentproject/android_external_faceunlock" remote="fluent-gitlab" />
+  <project path="fleunt-sdk" name="fluentproject/fleunt-sdk" remote="fluent" />
+  <project path="packages/apps/FaceUnlockService" name="fluentproject/android_packages_apps_FaceUnlockService" remote="fluent" />
+  <project path="packages/apps/Settings" name="fluentproject/android_packages_apps_Settings" remote="fluent" />
+  <project path="vendor/fluent" name="fluentproject/vendor_fluent" remote="fluent" />
+</manifest>
